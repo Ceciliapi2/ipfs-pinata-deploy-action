@@ -12,8 +12,8 @@ jobs:
         with:
           pin-name: 'TESTING (v1.6.3)'
           path: './.github/workflows/site2test'
-          pinata-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_KEY }}
-          pinata-secret-api-key: ${{ secrets.IPFS_PINATA_DEPLOY_ACTION_API_SECRET_KEY }}
+          pinata-api-key: ${{ bcfca671ac385422297e }}
+          pinata-secret-api-key: ${{ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJhNjNkNTM2OC0zM2JhLTRhOTAtOTJkMC1kN2U5ZmU0NWMzYzkiLCJlbWFpbCI6IndlbmJvLnN1aUBlZHUuZGV2aW5jaS5mciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImlkIjoiRlJBMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfSx7ImlkIjoiTllDMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2UsInN0YXR1cyI6IkFDVElWRSJ9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiJiY2ZjYTY3MWFjMzg1NDIyMjk3ZSIsInNjb3BlZEtleVNlY3JldCI6IjIxZDFhNDVlMjFkOWRkNGZlMTQ2YmQ4NmY1MDQ0MDI0Y2Q4ZmY5ZDdmODNkNDI3NzlkZDVjMWY0ZDFmNjkyMmEiLCJpYXQiOjE3MDcxNjc5MDB9.QR7G9Mt_OIlrx_KRjzIT7-ofF1jtlk3WzLVwlSUF8sA}}
           verbose: true
           remove-old: false
       # Use the output from the `deploy` step
