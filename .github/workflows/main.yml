@@ -13,7 +13,7 @@ jobs:
           pin-name: 'web'
           path: './.github/workflows/site2test'
           pinata-api-key: 6388b006aa66fa490c07
-          pinata-secret-api-key: 995eba33e933d524a8be50b348663d6f72b8c4ad7ae06d9a7b3dc042cb614869
+          pinata-secret-api-key: 995eba33e933d524a8be50b348663d6f72b8c4ad7ae06d9a7b3dc042cb6148
           verbose: true
           remove-old: false
       # Use the output from the `deploy` step
